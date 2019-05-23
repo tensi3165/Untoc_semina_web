@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>1주일만에 배우는 웹 프론트엔드</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/common_settings.js"></script>
+  <style>
+  #titlewrapper {
+    background-color: rgba(238,238,238,0.7);
+  }
+  .nav {
+    background-color: rgba(238,238,238,0.5);
+  }
+  .article {
+    background-color: rgba(238,238,238,0.2);
+  }
+  </style>
+</head>
+<body>
+  <div id="titlewrapper">
+    <div class="title">
+      <h1><a href="index.html">1주일만에 배우는 웹 프론트엔드</a></h1>
+      <h2>Feat.
+        <a href="https://www.opentutorials.org/course/1" title="opentutorials">HTML5 + CSS3</a>
+      </h2>
+    </div>
+  </div>
+  <div id="contentwrapper">
+    <div class="space" id="content_space">
+      <!-- This is used when there's notice -->
+      <p id="notice"></p>
+    </div>
+    <div id="grid">
+      <div class="nav" id="navigation">
+        <ol>
+          <li>
+            <a href="index.html">개요</a>
+          </li>
+          <li>
+            <a href="index.html">웹과 Html?</a>
+          </li>
+          <li>
+            <a href="index.html">Html의 문법</a>
+          </li>
+          <li>
+            <a href="index.html">Html의 구성</a>
+          </li>
+          <li>
+            <a href="css_dec.html">CSS란?</a>
+          </li>
+          <li>
+            <a href="css_result.html">CSS의 문법</a>
+          </li>
+          <li>
+            <a href="backend.html">웹호스팅과 서버</a>
+          </li>
+          <li>
+            <a href="QnA.html">QnA</a>
+          </li>
+      </div>
+      <div class="article">
+        <p><b><h3 style="color:black;border-bottom: 1px dotted #858585">웹 사이트 디자인을 담당하는 언어, CSS</h3></b></p>
+        <br>
+        <p>
+          Html은 정보를 표현하기 위해 만들어진 언어인데, 사람들은 정보만으로는 못산다고 불평을 쏟아내기 시작합니다.
+          <br><p>바로 이런 투박한 디자인이기 때문이죠.</p>
+        </p>
+        <br>
+        <img src="image/basic_html.png" width="100%" style="opacity:0.9">
+        <br>
+        <h3 style="color:black;border-bottom: 1px dotted #858585">Tag?  Style?  Language?</h3>
+        <br>
+        <p>
+          디자인을 표현하기 위해 사람들은 Html에 새로운 태그를 만들지, 아예 디자인만을 위한 새로운 언어를 만들기 고민합니다.
+        </p>
+        <br>
+        <img src="image/question.jpg" width="100%" style="opacity:0.9">
+        <br>
+        <h3 style="color:black;border-bottom: 1px dotted #858585"> CSS의 등장</h3>
+        <br>
+        <p>
+          html에 새로운 태그를 추가해 써보았지만 한계에 부딫혀 한 언어가 탄생하게 되었습니다.
+        </p>
+        <br>
+        <p>
+          바로 CSS가 개발된 이후, 우리는 드디어 아래처럼 현대적인 레이아웃을 갖춘 웹사이트들을 만나볼 수 있게 되었습니다.
+        </p>
+        <br>
+        <img src="image/rayout.png" width="100%" style="opacity:0.9">
+        <br>
+        <h3 style="color:black;border-bottom: 1px dotted #858585"> CSS의 정의</h3>
+        <br>
+        <p>
+          CSS는 Cascading Style Sheet의 약자로, 문서의 콘텐츠(정보)와 레이아웃 글꼴 및 시작적 요소들로 표현되는 문서의 외관(디자인)
+          인)을 분리하기 위한 목적으로 만들어졌습니다.
+        </p>
+        <br>
+        <p>
+          CSS가 혁명적인 이유는 내부 스타일, 외부 스타일을 따로 지정하여 가변적인 코딩이 가능해졌고 스타일 시트를 생성해 다른 사람에게 공유하여
+          손쉽게 다른 사람이 만든 디자인을 적용할 수 있게 된 것입니다.
+          <br><p> 또한, 이 덕분에 우리는 스타일 css 파일의 코드 한줄만 고쳐주면 전체 html 파일의 디자인을 바꿀 수 있게 되었습니다.</p>
+        </p>
+        <br>
+        <img src="image/css_decrip.jpg" width="100%" style="opacity:0.9">
+      </div>
+    </div>
+    <div id="createpeople">
+    © 2019 created by Shin Byeonggeun, Seo Insu.
+      <a rel="license" href="http://creativecommons.org/licenses/by/2.0/kr/"><img alt="크리에이티브 커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/kr/80x15.png" /></a><br />이 저작물은 <a rel="license" href="http://creativecommons.org/licenses/by/2.0/kr/">크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스</a>에 따라 이용할 수 있습니다.
+      </div>
+      <div class="btn_gotop" style="position:fixed; bottom:35px; right:30px; z-index:99;">
+        <a href="#titlewrapper">
+          <img src="image/top.png" style="width:40px">
+        </a>
+      </div>
+      <div class="btn_gohome" style="position:fixed; bottom:135px; right:30px; z-index:98;">
+        <a href="index.html">
+          <img src="image/home.png" style="width:40px">
+        </a>
+      </div>
+</body>
+</html>

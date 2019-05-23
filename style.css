@@ -1,0 +1,170 @@
+@import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
+
+body {
+  background:linear-gradient(#FFFFFF,#EAEAEA);
+  border: 0;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color:#444;
+  font-family: 'Noto Sans Korean', sans-serif;
+  font-size: 14px;
+}
+a {
+  color:#2B3B54;
+  text-decoration:none;
+}
+h3 {
+  color:#2B3B54;
+  font-size: 16px;
+  margin: 20px 0px 20px 0px;
+}
+p, li {
+  display: block;
+  line-height: 24px;
+  margin-top:5px;
+  padding: 0;
+}
+ul, ol {
+  margin:0;
+  padding: 0;
+}
+br {
+  margin:2px;
+}
+code{
+  background-color:#F0F0F0;
+  padding:0.5em;
+  overflow-x:auto;
+  display:block;
+  font-size:1.0rem;
+}
+.btn_gotop, .btn_gohome{
+  display:block;
+  position: fixed;
+  bottom: 35px;
+  right: 30px;
+  z-index:999;
+  border: 1px solid rgba(0,0,0,0.25);
+  outline: none;
+  background-color: white;
+  color: rgba(230,230,230,0.7);
+  cursor: pointer;
+  padding: 20px; 20px;
+  border-radius: 100%;
+}
+.inlinecode{
+  background-color: rgba(220,220,220,.5);
+  display: inline;
+  padding:0px 5px 0px 5px;
+  font-size: 1.1rem;
+}
+.title {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.title a {
+  font-weight:bold;
+}
+.title h1 {
+  font-size:2.5em;
+  margin:0;
+}
+.title h2 {
+  font-weight:normal;
+  margin:0;
+}
+.article h3 {
+  border-bottom:1px solid #CCC;
+  padding-bottom:10px;
+  margin-bottom:10px;
+}
+.article h3:not(:first-child) {
+  margin-top: 30px;
+}
+.article p:first-child {
+  text-align: center;
+  margin-top: 20px;
+}
+.nav ol {
+  counter-reset:item;
+  list-style-type:none;
+  margin:0px;
+}
+.nav a {
+  display:block;
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.nav li.active a, .nav li:hover {
+  background-color:#EEE;
+}
+.nav li:active {
+  background-color:#DDD;
+}
+#createpeople{
+  font-size: 14px;
+  font-weight:normal;
+  margin:10px;
+  text-align: center;
+  color:#8C8C8C;
+}
+#titlewrapper {
+  width: 1000px;
+  margin:0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #EEE;
+  border-left:4px solid #CCC;
+  border-right:4px solid #CCC;
+}
+#contentwrapper {
+  width: 1000px;
+  margin:0 auto;
+  border-left:1px solid #CCC;
+  border-right:1px solid #CCC;
+}
+#content_space {
+  border-bottom:1px solid #CCC;
+}
+#notice {
+  color: #FF6459;
+  font-weight: bold;
+  margin-left: 24px;
+  line-height: 48px;
+}
+#grid {
+  display:grid;
+  grid-template-columns:200px 1fr;
+  border-bottom:1px solid #CCC;
+}
+#grid .nav {
+  border-right:1px solid #CCC;
+}
+#grid .article {
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+}
+#disqus_thread {
+  margin:20px;
+}
+
+@media (max-width:800px) {
+  #title {
+    font-size:1.5em;
+  }
+  #grid {
+    display:block;
+  }
+  #grid .nav {
+    border-right:none;
+    border-bottom:1px solid #CCC;
+  }
+  #grid .article{
+    width:500px;
+  }
+}
